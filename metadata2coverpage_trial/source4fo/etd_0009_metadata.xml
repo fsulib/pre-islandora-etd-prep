@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='iso-8859-1' ?>
+<documents><document>
+<title>Institutional Influences and Control of Software Development Projects: An Examination of Air Force Software Project Teams</title>
+<publication-date>2003-10-31T00:00:00-08:00</publication-date>
+<authors>
+<author>
+<institution>Florida State University</institution>
+<lname>Ayres</lname>
+<fname>Bradley</fname>
+<mname>Jay</mname>
+</author>
+</authors>
+<keywords>
+<keyword>Institutional theory</keyword>
+<keyword>Control theory</keyword>
+<keyword>Project management</keyword>
+<keyword>Software project teams</keyword>
+</keywords>
+<disciplines><discipline>Management Information Systems</discipline>
+</disciplines><abstract>&lt;p&gt;The purpose of this dissertation was to expand current knowledge about  control of software development projects by examining the effects that  institutional influences have on the use of control mechanisms by  software project teams, and how the different institutional influences  affect each other.&lt;/p&gt;
+&lt;p&gt;The findings provide support for an important relationship between  institutional profiles and the adoption of formal control mechanisms by  software project teams.  First, different institutional profiles will  support different types of adoption of formal control mechanisms.   Second, when the enacted profile of a software project team is  consistent with a dominant institutional profile, the use of formal  control mechanisms will be faithful to this profile.  Third, when the  enacted profile is conflicted, the use of formal control mechanisms will  be mixed with both ceremonial and faithful appropriations.  Fourth, the  higher the tenure of the software project team, the more likely the  enacted profile will be consistent with the older institutional context.   Finally, the level of congruence of software project managers with a  particular institutional profile will be positively related to the  adoption of formal control mechanisms consistent with that profile.&lt;/p&gt;
+&lt;p&gt;The study also found that when institutional elements are  complementary to each other in the form of an institutional profile,  they have a much greater influence on social actors than when the  elements are independent of each other.&lt;/p&gt;</abstract>
+<coverpage-url>http://diginole.lib.fsu.edu/etd/9</coverpage-url>
+<fulltext-url>http://diginole.lib.fsu.edu/cgi/viewcontent.cgi?article=1009&amp;amp;context=etd&amp;amp;unstamped=1</fulltext-url>
+<label>9</label>
+<document-type>open_dissertation</document-type>
+<type>article</type>
+<articleid>1009</articleid>
+<submission-date>2011-09-28T08:29:11-07:00</submission-date>
+<publication-title>Electronic Theses, Treatises and Dissertations</publication-title>
+<context-key>2262291</context-key>
+<submission-path>etd/9</submission-path>
+<fields>
+<field name="advisor1" type="string">
+<value>&lt;p&gt;Committee Co-Chair - Joey F. George&lt;/p&gt;
+&lt;p&gt;Committee Co-Chair - Robert W. Zmud&lt;/p&gt;
+&lt;p&gt;Committee Member - David B. Paradice&lt;/p&gt;
+&lt;p&gt;Committee Member - William P. Anthony&lt;/p&gt;</value>
+</field>
+<field name="advisor2" type="string">
+<value>David B. Paradice</value>
+</field>
+<field name="advisor3" type="string">
+<value>William P. Anthony</value>
+</field>
+<field name="availability" type="string">
+<value>Open Access</value>
+</field>
+<field name="degree_name" type="string">
+<value>PHD, Doctor of Philosophy</value>
+</field>
+<field name="department" type="string">
+<value>Department of Management Information Systems</value>
+</field>
+<field name="embargo_date" type="date">
+<value>2011-09-28T00:00:00-07:00</value>
+</field>
+<field name="publication_date" type="date">
+<value>2003-10-31T00:00:00-08:00</value>
+</field>
+</fields>
+</document>
+</documents>
