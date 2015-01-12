@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+   <fo:layout-master-set>
+      <fo:simple-page-master page-height="11in" page-width="8.5in" master-name="coverpage">
+         <fo:region-body region-name="title" margin="1in"/>
+      </fo:simple-page-master>
+   </fo:layout-master-set>
+   <fo:page-sequence master-reference="coverpage">
+      <fo:flow flow-name="title"
+               font-family="'Times New Roman'"
+               font-style="normal"
+               padding-left="15pt"
+               text-decoration="none"
+               text-indent="0pt">
+         <fo:block-container color="#782F40">
+            <fo:block>
+               <fo:inline font-size="13pt" font-weight="bold">Florida State
+                                    University</fo:inline>
+            </fo:block>
+            <fo:block>
+               <fo:inline font-size="18pt" font-weight="bold">DigiNole
+                                    Repository</fo:inline>
+            </fo:block>
+         </fo:block-container>
+         <fo:block>
+            <fo:leader color="#782F40"
+                       leader-length="100%"
+                       leader-pattern="rule"
+                       padding-left="0pt"
+                       rule-style="solid"
+                       rule-thickness=".2mm"/>
+         </fo:block>
+         <fo:block color="black"
+                   font-size="12pt"
+                   font-weight="normal"
+                   padding-top="7pt"
+                   text-align-last="justify">
+            <fo:inline>Electronic Theses, Treatises and Dissertations</fo:inline>
+            <fo:leader leader-pattern="space"/>
+            <fo:inline>The Graduate School</fo:inline>
+         </fo:block>
+         <fo:block>
+            <fo:leader color="#782F40"
+                       leader-length="100%"
+                       leader-pattern="rule"
+                       padding-left="0pt"
+                       rule-style="solid"
+                       rule-thickness=".2mm"/>
+         </fo:block>
+         <fo:block-container color="black" padding-top="20pt" padding-left="15pt">
+            <fo:block font-size="13pt">2003</fo:block>
+            <fo:block font-size="26pt" line-height="24pt" padding-top="10pt">GENDER WAGE DIFFERENTIALS AND UNDER-REPRESENTATION OF WOMEN IN IT EDUCATION PROGRAMS AND IT WORKFORCE</fo:block>
+            <fo:block font-size="13pt" padding-top="11pt">NECATI AYDIN</fo:block>
+            <fo:block font-size="10pt" padding-top="1pt" font-style="italic">Florida
+                                State University</fo:block>
+         </fo:block-container>
+         <fo:block-container absolute-position="fixed" top="200mm" left="28mm" right="28mm">
+            <fo:block font-size="13pt" line-height="33pt" padding-left="15pt">Follow
+                                this and additional works at: [ISLANDORA ADDRESS]</fo:block>
+            <fo:block font-size="13pt" line-height="16pt" padding-left="15pt">Recommended Citation</fo:block>
+            <fo:block font-size="9pt" line-height="9pt" padding-left="15pt">Necati Aydin, Gender Wage Differentials and Under-representation of Women in IT Education Programs and IT Workforce (2003).<fo:inline font-style="italic">Electronic Theses, Treatises and
+                                    Dissertations. </fo:inline>Paper 0010</fo:block>
+            <fo:block>
+               <fo:leader color="#782F40"
+                          leader-length="100%"
+                          leader-pattern="rule"
+                          padding-left="0pt"
+                          rule-style="solid"
+                          rule-thickness=".2mm"/>
+            </fo:block>
+            <fo:block font-size="8pt" padding-left="15pt">This Dissertation - Open
+                                Access is brought to you for free and open access by the The
+                                Graduate School at DigiNole Commons. It has been accepted for
+                                inclusion in Electronic Theses, Treatises and Dissertations by an
+                                authorized administrator of DigiNole Commons. For more information,
+                                please contact <fo:basic-link color="#316190"
+                              font-size="8pt"
+                              external-destination="lib-ir@fsu.edu">lib-ir@fsu.edu</fo:basic-link>
+            </fo:block>
+         </fo:block-container>
+      </fo:flow>
+   </fo:page-sequence>
+</fo:root>
