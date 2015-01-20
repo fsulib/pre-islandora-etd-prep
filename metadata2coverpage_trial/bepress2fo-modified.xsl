@@ -125,10 +125,10 @@
                             <xsl:value-of select="$year"/>
                           </fo:block>
                           <fo:block font-size="26pt" line-height="24pt" padding-top="10pt">
-                            <xsl:value-of select="upper-case($title)"/>
+                            <xsl:value-of select="$title"/>
                           </fo:block>
                           <fo:block font-size="13pt" padding-top="11pt">
-                            <xsl:value-of select="upper-case($author)"/>
+                            <xsl:value-of select="$author"/>
                           </fo:block>
                           <fo:block font-size="10pt" padding-top="1pt" font-style="italic">Florida
                             State University</fo:block>
