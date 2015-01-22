@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='iso-8859-1' ?>
+<documents><document>
+<title>Gender Wage Differentials and Under-representation of Women in IT Education Programs and IT Workforce</title>
+<publication-date>2003-11-11T00:00:00-08:00</publication-date>
+<authors>
+<author>
+<institution>Florida State University</institution>
+<lname>Aydin</lname>
+<fname>Necati</fname>
+</author>
+</authors>
+<keywords>
+<keyword>IT workers</keyword>
+<keyword>Gender wage differentials</keyword>
+<keyword>Discrimination</keyword>
+<keyword>Earnings</keyword>
+<keyword>Women</keyword>
+</keywords>
+<disciplines><discipline>Education</discipline>
+</disciplines><abstract>&lt;p&gt;This study examines the determinants of earnings and gender wage  differentials for Florida’s IT graduates and IT workers by using the  Mincerian regression model and the Blinder-Oaxaca wage decomposition  model.  Florida Education and Training Placement Information Program  (FETPIP) data and Census Microdata (PUMS) are used in both models to  shed some light on the increasing under-representation of women in the  IT workforce.  The study finds that there has been little or no gender  wage difference for IT graduates from the Community Colleges (CC) and  Post-Secondary Education (PSE) programs, while there has been an  increasing gender wage difference for the Public University (SUS) IT  graduates since 1993.  The gender coefficients from the Mincerian  regression models indicate that the rate for the SUS IT graduates  increased from its low value of 2% to the high value of 12% in the year  2002.&lt;/p&gt;
+&lt;p&gt;The gender wage differential rates for the SUS IT graduates measured  from the Blinder-Oaxaca model are consistent with the Mincerian  Regression results.  The wage decomposition model reveals that the  gender wage differentials for SUS IT graduates increased from 10% in the  year 1996, to 18% in the year 2002.  The model further indicates that  30% of this wage gap in the year 2002 was due to gender discrimination.   The study finds that a proxy experience variable overestimates the  impact of experience on earnings for female workers.  The study presents  a notable difference between the impact of the actual experience  variable based on FETPIP data and that of a proxy variable based on the  PUMS data.&lt;/p&gt;</abstract>
+<coverpage-url>http://diginole.lib.fsu.edu/etd/10</coverpage-url>
+<fulltext-url>http://diginole.lib.fsu.edu/cgi/viewcontent.cgi?article=1008&amp;amp;context=etd&amp;amp;unstamped=1</fulltext-url>
+<label>10</label>
+<document-type>open_dissertation</document-type>
+<type>article</type>
+<articleid>1008</articleid>
+<submission-date>2011-09-28T08:17:50-07:00</submission-date>
+<publication-title>Electronic Theses, Treatises and Dissertations</publication-title>
+<context-key>2262240</context-key>
+<submission-path>etd/10</submission-path>
+<fields>
+<field name="advisor1" type="string">
+<value>&lt;p&gt;Committee Co-Chair - John P. Lunstrum&lt;/p&gt;
+&lt;p&gt;Committee Co-Chair - Victoria M. MacDonald&lt;/p&gt;
+&lt;p&gt;Committee Member - Douglas N. Harris&lt;/p&gt;
+&lt;p&gt;Committee Member - James H. Coble&lt;/p&gt;
+&lt;p&gt;Committee Member - John H. Hansen&lt;/p&gt;</value>
+</field>
+<field name="advisor2" type="string">
+<value>Douglas N. Harris</value>
+</field>
+<field name="advisor3" type="string">
+<value>James H. Cobbe</value>
+</field>
+<field name="advisor4" type="string">
+<value>John H. Hansen</value>
+</field>
+<field name="availability" type="string">
+<value>Open Access</value>
+</field>
+<field name="degree_name" type="string">
+<value>PHD, Doctor of Philosophy</value>
+</field>
+<field name="department" type="string">
+<value>Department of Middle and Secondary Education</value>
+</field>
+<field name="embargo_date" type="date">
+<value>2011-09-28T00:00:00-07:00</value>
+</field>
+<field name="publication_date" type="date">
+<value>2003-11-11T00:00:00-08:00</value>
+</field>
+</fields>
+</document>
+</documents>

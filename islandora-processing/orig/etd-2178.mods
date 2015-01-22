@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           version="3.4"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+   <titleInfo lang="eng">
+      <mods:title>Catching Up</mods:title>
+      <mods:subTitle>A Collection</mods:subTitle>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <namePart type="given">Patrick J.</namePart>
+      <namePart type="family">Murphy</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="rda" type="text">author</roleTerm>
+         <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">Janet</namePart>
+      <namePart type="family">Burroway</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">Peter</namePart>
+      <namePart type="family">Ruppert</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">outside committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">Mark</namePart>
+      <namePart type="family">Winegardner</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">Elizabeth</namePart>
+      <namePart type="family">Stuckey-French</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">Virgil</namePart>
+      <namePart type="family">Suarez</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="naf">
+      <namePart>Department of English</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting
+                                    department</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="naf">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting
+                                institution</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2003</dateIssued>
+      <dateOther encoding="w3cdtf" type="defense">2003-03-19</dateOther>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online
+                            resource</form>
+      <extent>1 online resource</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>This is a collection of short stories in fulfillment of the Florida State University Ph.D. dissertation requirement. The collection contains eight stories. Its title is Catching Up: A Collection. The stories form a type of sequential narrative, in that they are ordered by the age of the protagonist. In the one story where there are three protagonists, an average of sorts is drawn. The collection, therefore, travels from childhood to old age, gaining what insights it may from each time period. In doing so, it crosses gender boundaries. All of the stories can be thought of as related to Florida in some manner, though in â&#x80;&#x9c;Port and Starboard Libertyâ&#x80;&#x9d; the connection is somewhat tangential, and no attempt was made to treat Florida as a thematic element. Rather, the collection is heavily concerned with the problems inherent in the parent-child relationship and the consequences of lost love.</abstract>
+   <note displayLabel="'System requirements'">Adobe Reader or other PDF
+                        viewer.</note>
+   <note displayLabel="Degree submitted">A Dissertation submitted to the Department of English in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="'Degree awarded'">Spring Semester, 2003.</note>
+   <note displayLabel="'Keywords'">Short Stories, Florida, Parent-Child Relationships</note>
+   <note displayLabel="'Bibliography note'">Includes bibliographical
+                        references.</note>
+   <note displayLabel="'Advisory committee'">Janet Burroway, Professor Directing Dissertation; Peter Ruppert, Outside Committee Member; Mark Winegardner, Committee Member; Elizabeth Stuckey-French, Committee Member; Virgil Suarez, Committee Member.</note>
+   <subject>
+      <topic authority="'lcsh'" valueURI="'http://lccn.loc.gov/sh85108459'">English literature</topic>
+   </subject>   
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>English</etd:discipline>
+      </etd:degree>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2015-01-21T12:54:34.362-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

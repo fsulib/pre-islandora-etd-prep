@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           version="3.4"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+   <titleInfo lang="eng">
+      <mods:title>Like a Tree on Its Side</mods:title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <namePart type="given">Dana</namePart>
+      <namePart type="family">Kantrowitz</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="rda" type="text">author</roleTerm>
+         <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">James</namePart>
+      <namePart type="family">Kimbrell</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">Ned</namePart>
+      <namePart type="family">Stuckey-French</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">Joann</namePart>
+      <namePart type="family">Gardner</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="naf">
+      <namePart>Department of English</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting
+                                    department</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="naf">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting
+                                institution</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+      <dateOther encoding="w3cdtf" type="defense">2005-06-24</dateOther>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online
+                            resource</form>
+      <extent>1 online resource</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>This thesis is a collection of lyric poetry and personal essays. The two genres are spliced together in a design intended to use their visual differences and contextual similarities to more fully understand the people, places, and events examined here. The material is based on the authorâ&#x80;&#x99;s personal experiences, but is reflected upon and shared in this form in hopes of highlighting the universality of human emotions. Thematically, it delves into the complexities of personal relationshipsâ&#x80;&#x94;family dynamics, romantic interests, and oneâ&#x80;&#x99;s knowledge of herselfâ&#x80;&#x94;and explores how they change over time.</abstract>
+   <note displayLabel="'System requirements'">Adobe Reader or other PDF
+                        viewer.</note>
+   <note displayLabel="Degree submitted">A Thesis submitted to the Department of English in partial fulfillment of the requirements for the degree of Masters of Arts.</note>
+   <note displayLabel="'Degree awarded'">Summer Semester, 2005.</note>
+   <note displayLabel="'Keywords'">Personal essay, poetry</note>
+   <note displayLabel="'Bibliography note'">Includes bibliographical
+                        references.</note>
+   <note displayLabel="'Advisory committee'">James Kimbrell, Professor Directing Thesis; Ned Stuckey-French, Committee Member; Joann Gardner, Committee Member.</note>
+   <subject>
+      <topic authority="'lcsh'" valueURI="'http://lccn.loc.gov/sh85043777'">English literature</topic>
+   </subject>
+   <extension>
+      <etd:degree>
+         <etd:name>Master of Arts</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>English</etd:discipline>
+      </etd:degree>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2015-01-21T12:54:32.85-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>
