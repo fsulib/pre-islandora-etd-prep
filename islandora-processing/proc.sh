@@ -15,8 +15,9 @@ if [ ! ${1} ]; then
   exit
 fi
 
-INPUTDIR=$1
+INPUTDIR=${1%/}
 OUTPUTDIR=tmp
+OUTPUTFILE=${INPUTDIR}-batch.zip
 if [ ! -d $INPUTDIR  ]; then
   echo "$INPUTDIR does not exist."
   exit
@@ -35,9 +36,14 @@ fi
 
 for f in $( ls $OUTPUTDIR/*.xml ); do
   sh components/clean-prefixes.sh $f
-  sh components/add-flvc.sh $f $OUTPUTDIR "MIGR"
+  sh components/add-flvc.sh $f $OUTPUTDIR $BID
 done
 
-zip ${INPUTDIR}_batch.zip $OUTPUTDIR
 
-printf "\nFinished.\nCheck $OUTPUTDIR for all freshly modified files.\n\n"
+cd tmp
+zip -r $OUTPUTFILE *
+mv $OUTPUTFILE ..
+cd ..
+rm -r tmp
+
+printf "\nProcess completed, see $OUTPUTFILE.\n\n"

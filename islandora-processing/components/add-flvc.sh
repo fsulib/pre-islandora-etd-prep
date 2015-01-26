@@ -15,5 +15,5 @@ xml ed -L -s //flvc:flvc -t elem -n flvc:submittingInstitution -v FSU $1
 
 # Add IID identifier
 DID=`echo ${1} | sed "s/${2}\///" | sed "s/.xml//"`
-xml ed -L -s //_:mods -t elem -n identifier -v FSU_${BID}_${DID} $1
+xml ed -L -s //_:mods -t elem -n identifier -v FSU_${3}_${DID} $1
 perl -pi -e 's/<identifier>/<identifier type="IID">/g' $1
