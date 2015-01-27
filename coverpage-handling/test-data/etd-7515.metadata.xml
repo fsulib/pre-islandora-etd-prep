@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           version="3.4"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+   <titleInfo lang="eng">
+      <mods:title>Music Therapy Perceptions And The Status Of Collaboration And Co-Treatment Among Other Disciplines Of Therapy In Pediatric Outpatient Settings</mods:title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <namePart type="given">Alyssa</namePart>
+      <namePart type="family">Monas</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="rda" type="text">author</roleTerm>
+         <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">Kimberly</namePart>
+      <namePart type="family">VanWeelden</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">Jayne</namePart>
+      <namePart type="family">Standley</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">Dianne</namePart>
+      <namePart type="family">Gregory</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="naf">
+      <namePart>College of Music</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting
+                                    department</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="naf">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting
+                                institution</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+      <dateOther encoding="w3cdtf" type="defense">2013-07-15</dateOther>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online
+                            resource</form>
+      <extent>1 online resource</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>ABSTRACT The purpose of this study was to explore perceptions of music therapy as well as the status of collaboration and co-treatment among licensed therapists in the Southeastern region working in pediatric outpatient facilities (N = 57), specifically physical therapists (n = 19), occupational therapists (n = 20) and speech-language pathologists (n = 18). The researcher specifically sought to determine whether respondents viewed music therapy as an effective and beneficial form of treatment for pediatric clients, whether they collaborate and/or co-treat with music therapists in their practice, what populations they work with in co-treatment if it does take place, which discipline of therapy co-treats with a music therapist most frequently, which therapeutic goals and assessment/consultation tasks they believe a music therapist is able to address in their treatment, how frequently, and under what circumstances, they refer clients for music therapy and whether they believe music therapy services would benefit any of their current clients. Overall, 30% of respondents indicated they currently worked with a music therapist and 18% indicated they worked with a music therapist in a previous job. Results found that 100% of therapists who either currently worked with a music therapist or worked with one in a previous job found it to be an effective and legitimate form of therapy. In total, 95% of respondents found music therapy legitimate and beneficial. Eighty eight percent of therapists currently working in a facility with a music therapist agreed they collaborate with the music therapist on staff and 59% indicated they co-treat. Reasons for not co-treating included issues with billing, scheduling, perceptions, lack of opportunity and co-treating not being appropriate for clients. Ninety one percent of respondents indicated they believe co-treating with a music therapist would benefit some of their current clients, illustrating the need to continue looking into co-treatment as a more viable option for therapeutic disciplines.</abstract>
+   <note displayLabel="'System requirements'">Adobe Reader or other PDF
+                        viewer.</note>
+   <note displayLabel="Degree submitted">A Thesis submitted to the College of Music in partial fulfillment of the requirements for the degree of Master of Music.</note>
+   <note displayLabel="'Degree awarded'">Summer Semester, 2013.</note>
+   <note displayLabel="'Keywords'">occupational, perceptions, physical, speech</note>
+   <note displayLabel="'Bibliography note'">Includes bibliographical
+                        references.</note>
+   <note displayLabel="'Advisory committee'">Kimberly VanWeelden, Professor Directing Thesis; Jayne Standley, Committee Member; Dianne Gregory, Committee Member.</note>
+   <subject>
+      <topic authority="'lcsh'" authorityURI="http://lccn.loc.gov/sh85088762'">Music</topic>
+   </subject>
+   <extension>
+      <etd:degree>
+         <etd:name>Master of Music</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Music</etd:discipline>
+      </etd:degree>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2015-01-21T12:54:35.448-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

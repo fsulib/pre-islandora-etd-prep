@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           version="3.4"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+   <titleInfo lang="eng">
+      <mods:title>Non-Pecuniary Factors Affecting Employee Productivity</mods:title>
+   </titleInfo>
+   <name type="personal" authority="naf" valueURI="'http://lccn.loc.gov/no2011194882'">
+      <namePart type="given">E. Glenn (Edwin Glenn)</namePart>
+      <namePart type="family">Dutcher</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="rda" type="text">author</roleTerm>
+         <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">Timothy</namePart>
+      <namePart type="family">Salmon</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">Douglas</namePart>
+      <namePart type="family">Stevens</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">David</namePart>
+      <namePart type="family">Cooper</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">Mark</namePart>
+      <namePart type="family">Isaac</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal" authority="local">
+      <namePart type="given">Dmitry</namePart>
+      <namePart type="family">Ryvkin</namePart>
+      <namePart type="termsOfAddress"/>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="naf">
+      <namePart>Department of Economics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting
+                                    department</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="naf">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting
+                                institution</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+      <dateOther encoding="w3cdtf" type="defense">2011-06-28</dateOther>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online
+                            resource</form>
+      <extent>1 online resource</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>This dissertation is a collection of three essays which utilize experimental methods to examine three non-pecuniary factors which influence employee work effort. The first looks to understand how a telecommuting environment may affect productivity. In an effort to cut costs and improve worker morale, corporations are increasingly turning to telecommuting. Conflicting reports exist though on the effects that working outside the office has on productivity which directly affects a companyâ&#x80;&#x99;s bottom line. Creative and mundane individual tasks were used to mimic two extreme work climates. Results of this study indicate that the telecommuting environmental effects may have positive implications on productivity of creative tasks and negative implications on productivity of mundane tasks. The second looks to understand how workers faced with a social dilemma similar to a work-team environment respond to observing punishment of someone else. Punishment has been shown to be an effective reinforcement mechanism. Intentional or not, punishment will likely generate spillover effects that extend beyond oneâ&#x80;&#x99;s immediate decision environment, and these spillovers are not as well understood. We seek to understand these secondary spillover effects in a controlled lab setting using a standard social dilemma: the voluntary contributions mechanism game. We find that spillovers from punishment lead to either more or less cooperative behavior depending on the history of play. If subjects have direct experience with a punishment mechanism, they will contribute more to the public good after observing othersâ&#x80;&#x99; punishment. The reverse is true of those who observe othersâ&#x80;&#x99; punishment but have no exposure to direct experience with punishment. The final essay explores how social distance between an employee and a manager may affect the work effort of employees when they are competing for rewards given out by their manager. In an employer/employee relationship, this difference in social distance between the employer and the various employees leads to a disadvantageous situation for the socially distant workers when raises, promotions, special considerations etc. are given. Since social distance is present in most organizations, understanding how employeesâ&#x80;&#x99; work effort changes in response to changes in social distance is of upmost importance. In prior literature, this disadvantage has always been assumed to lead to lower effort than the advantaged worker. Experimental tests of these lines of tournament theories have shown this is the case when the disadvantage is induced. It remains unclear however if this result holds when the disadvantage is not induced. The results indicate that females are much more sensitive to social distance between themselves and a manager where those socially close to the manager contribute much more than females who are not while there is no difference in the behavior of males based on social ties.</abstract>
+   <note displayLabel="'System requirements'">Adobe Reader or other PDF
+                        viewer.</note>
+   <note displayLabel="Degree submitted">A Dissertation submitted to the Department of Economics in partial fullfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="'Degree awarded'">Summer Semester, 2011.</note>
+   <note displayLabel="'Keywords'">Experimental Economics</note>
+   <note displayLabel="'Bibliography note'">Includes bibliographical
+                        references.</note>
+   <note displayLabel="'Advisory committee'">Timothy Salmon, Professor Directing Dissertation; Douglas Stevens, University Representative; David Cooper, Committee Member; Mark Isaac, Committee Member; Dmitry Ryvkin, Committee Member.</note>
+   <subject><topic authority="'lcsh'" valueURI="'http://lccn.loc.gov/sh85040850'">Economics</topic></subject>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Economics</etd:discipline>
+      </etd:degree>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2015-01-21T12:54:33.672-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

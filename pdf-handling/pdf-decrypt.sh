@@ -2,8 +2,12 @@
 
 # Requires:
 # - gs (GhostScript)
-# - pdftk (PDF Tool Kit)
 
-rm -r descured/
-mkdir desecured/
-gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=desecured/$1 -c .setpdfwrite -f $1
+rm -rf desec
+mkdir desec
+
+for f in $( ls $1 ); do
+  gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=desec/$f -c .setpdfwrite -f $1/$f
+  echo $f
+done
+
