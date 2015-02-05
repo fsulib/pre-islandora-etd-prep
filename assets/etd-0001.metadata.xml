@@ -136,8 +136,8 @@
       <etd:discipline>English</etd:discipline>
     </etd:degree>
   </extension>
-  <recordIfo>
+  <recordInfo>
     <recordCreationDate encoding="w3cdtf">2015-01-21T12:54:27.847-05:00</recordCreationDate>
     <descriptionStandard>rda</descriptionStandard>
-  </recordIfo>
+  </recordInfo>
 </mods>

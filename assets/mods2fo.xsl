@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:mods="http://www.loc.gov/mods/v3"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd"
     version="2.0"
     exclude-result-prefixes="xs xd">
 
     <xsl:output indent="yes" encoding="UTF-8"/>
     <xsl:strip-space elements="*"/>
     
-    <xsl:apply-templates/>
-    <xsl:template match="/">
+    <xsl:template match="/mods:mods">
         <!-- <xsl:for-each select="."> -->
 
-            <xsl:variable name="title" select="titleInfo/title"/>
+            <xsl:variable name="title" select="mods:titleInfo/mods:title" />
             
   	    <!--
             <xsl:variable name="author">
