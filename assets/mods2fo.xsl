@@ -14,7 +14,8 @@
     <xsl:template match="/mods:mods">
         <!-- <xsl:for-each select="."> -->
 
-            <xsl:variable name="title" select="mods:titleInfo/mods:title" />
+            <!--<xsl:variable name="title" select="mods:titleInfo/mods:title" />-->
+            <xsl:variable name="title">Bryan Designed This Coverpage and Then Wrote an Electronic Thesis About It</xsl:variable>>
             
   	    <!--
             <xsl:variable name="author">
@@ -34,8 +35,8 @@
             
             <xsl:variable name="year" select="substring(publication-date,1,4)"/>
             -->
-            <xsl:variable name="author">author</xsl:variable>
-            <xsl:variable name="year">year</xsl:variable>
+            <xsl:variable name="author">Bryan Brown</xsl:variable>
+            <xsl:variable name="year">1986</xsl:variable>
 
             <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
                 <fo:layout-master-set>

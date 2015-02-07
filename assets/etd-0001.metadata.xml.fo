@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
+<?xml version="1.0" encoding="UTF-8"?>&gt;
+            
+  	    
+            <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
          xmlns:mods="http://www.loc.gov/mods/v3"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <fo:layout-master-set>
@@ -46,9 +48,9 @@
                        rule-thickness=".2mm"/>
          </fo:block>
          <fo:block-container color="black" padding-top="40pt" padding-left="15pt">
-            <fo:block font-size="13pt">year</fo:block>
-            <fo:block font-size="26pt" line-height="24pt" padding-top="10pt">Conversations with Ray Bradbury</fo:block>
-            <fo:block font-size="13pt" padding-top="11pt">author</fo:block>
+            <fo:block font-size="13pt">1986</fo:block>
+            <fo:block font-size="26pt" line-height="24pt" padding-top="10pt">Bryan Designed This Coverpage and Then Wrote an Electronic Thesis About It</fo:block>
+            <fo:block font-size="13pt" padding-top="11pt">Bryan Brown</fo:block>
          </fo:block-container>
          <fo:block-container absolute-position="fixed" top="220mm" left="28mm" right="28mm">
             <fo:block text-align="center" padding-bottom="0.25in">
