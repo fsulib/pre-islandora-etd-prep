@@ -73,7 +73,7 @@
 
           <fo:block-container color="black" padding-top="40pt" padding-left="15pt">
             <fo:block font-size="13pt">
-              <xsl:value-of select="$year"/>
+              <xsl:value-of select="mods:originInfo/mods:dateIssued"/>
             </fo:block>
             <fo:block font-size="26pt" line-height="24pt" padding-top="10pt">
               <xsl:choose>
