@@ -7,12 +7,14 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo lang="eng">
+	 <nonSort>The</nonSort>
     <title>Conversations with Ray Bradbury</title>
+	 <subTitle>Aliens ate my baby</subTitle>
   </titleInfo>
   <name type="personal" authority="naf" valueURI="http://lccn.loc.gov/n2003054328">
     <namePart type="given">Steven Louis</namePart>
     <namePart type="family">Aggelis</namePart>
-    <namePart type="termsOfAddress"/>
+    <namePart type="termsOfAddress">III</namePart>
     <role>
       <roleTerm authority="rda" type="text">author</roleTerm>
       <roleTerm authority="marcrelator" type="code">aut</roleTerm>

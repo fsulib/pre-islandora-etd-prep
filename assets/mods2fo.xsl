@@ -31,7 +31,7 @@
             
             <xsl:variable name="year" select="substring(publication-date,1,4)"/>
             -->
-    <xsl:variable name="author">Bryan Brown</xsl:variable>
+
     <xsl:variable name="year">1986</xsl:variable>
 
     <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
@@ -78,28 +78,32 @@
             <fo:block font-size="26pt" line-height="24pt" padding-top="10pt">
               <xsl:choose>
                 <!-- nonSort and subTitle -->
-                <xsl:when test="boolean(mods:titleInfo/mods:nonSort) and boolean(mods:titleInfo/mods:subTitle)">
-                  <xsl:variable name="title" select="concat(mods:titleInfo/mods:nonSort,' ',mods:titleInfo/mods:title,' : ',mods:titleInfo/mods:subTitle)"/>
+                <xsl:when
+                  test="boolean(mods:titleInfo/mods:nonSort) and boolean(mods:titleInfo/mods:subTitle)">
+                  <xsl:variable name="title"
+                    select="concat(mods:titleInfo/mods:nonSort,' ',mods:titleInfo/mods:title,' : ',mods:titleInfo/mods:subTitle)"/>
                   <xsl:value-of select="$title"/>
                 </xsl:when>
                 <!-- nonSort only -->
                 <xsl:when test="boolean(mods:titleInfo/mods:nonSort)">
-                  <xsl:variable name="title" select="concat(mods:titleInfo/mods:nonSort,' ',mods:titleInfo/mods:title)" />
+                  <xsl:variable name="title"
+                    select="concat(mods:titleInfo/mods:nonSort,' ',mods:titleInfo/mods:title)"/>
                   <xsl:value-of select="$title"/>
                 </xsl:when>
                 <!-- subTitle only -->
                 <xsl:when test="boolean(mods:titleInfo/mods:subtitle)">
-                  <xsl:variable name="title" select="concat(mods:titleInfo/mods:title,' : ',mods:titleInfo/mods:subTitle)" />
+                  <xsl:variable name="title"
+                    select="concat(mods:titleInfo/mods:title,' : ',mods:titleInfo/mods:subTitle)"/>
                   <xsl:value-of select="$title"/>
                 </xsl:when>
                 <xsl:otherwise>
-                  <xsl:variable name="title" select="mods:titleInfo/mods:title" />
+                  <xsl:variable name="title" select="mods:titleInfo/mods:title"/>
                   <xsl:value-of select="$title"/>
                 </xsl:otherwise>
-              </xsl:choose>  
+              </xsl:choose>
             </fo:block>
             <fo:block font-size="13pt" padding-top="11pt">
-              <xsl:value-of select="$author"/>
+              <xsl:apply-templates select="mods:name[mods:role/mods:roleTerm='aut']"/>
             </fo:block>
 
             <!-- Fix later, make more dynamic
@@ -130,5 +134,19 @@
         </fo:flow>
       </fo:page-sequence>
     </fo:root>
+  </xsl:template>
+  <xsl:template match="mods:name">
+    <xsl:choose>
+      <xsl:when test="boolean(mods:namePart[@type='termsOfAddress'])">
+        <xsl:variable name="author"
+          select="concat(mods:namePart[@type='given'],' ',mods:namePart[@type='family'],' ',mods:namePart[@type='termsOfAddress'])"/>
+        <xsl:value-of select="$author"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:variable name="author"
+          select="concat(mods:namePart[@type='given'],' ',mods:namePart[@type='family'])"/>
+        <xsl:value-of select="$author"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 </xsl:stylesheet>

@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>&gt;
-            
-  	    
-            <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
          xmlns:mods="http://www.loc.gov/mods/v3"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <fo:layout-master-set>
@@ -19,7 +17,7 @@
          <fo:block-container color="#782F40">
             <fo:block padding-top="0.25in">
                <fo:inline font-size="32pt" font-weight="bold" text-align-last="center">Florida State
-                                    University Libraries</fo:inline>
+                University Libraries</fo:inline>
             </fo:block>
          </fo:block-container>
          <fo:block>
@@ -49,8 +47,8 @@
          </fo:block>
          <fo:block-container color="black" padding-top="40pt" padding-left="15pt">
             <fo:block font-size="13pt">1986</fo:block>
-            <fo:block font-size="26pt" line-height="24pt" padding-top="10pt">Bryan Designed This Coverpage and Then Wrote an Electronic Thesis About It</fo:block>
-            <fo:block font-size="13pt" padding-top="11pt">Bryan Brown</fo:block>
+            <fo:block font-size="26pt" line-height="24pt" padding-top="10pt">The Conversations with Ray Bradbury : Aliens ate my baby</fo:block>
+            <fo:block font-size="13pt" padding-top="11pt">Steven Louis Aggelis III</fo:block>
          </fo:block-container>
          <fo:block-container absolute-position="fixed" top="220mm" left="28mm" right="28mm">
             <fo:block text-align="center" padding-bottom="0.25in">
@@ -66,8 +64,9 @@
                           rule-style="solid"
                           rule-thickness=".2mm"/>
             </fo:block>
-            <fo:block font-size="8pt" padding-left="15pt" text-align="center">Follow this and additional works at the <fo:basic-link color="#782F40" external-destination="http://fsu.digital.flvc.org/">FSU Digital Library</fo:basic-link>. For more information,
-                            please contact <fo:basic-link color="#782F40" external-destination="mailto:lib-ir@fsu.edu">lib-ir@fsu.edu</fo:basic-link>
+            <fo:block font-size="8pt" padding-left="15pt" text-align="center">Follow this and
+              additional works at the <fo:basic-link color="#782F40" external-destination="http://fsu.digital.flvc.org/">FSU Digital
+                Library</fo:basic-link>. For more information, please contact <fo:basic-link color="#782F40" external-destination="mailto:lib-ir@fsu.edu">lib-ir@fsu.edu</fo:basic-link>
             </fo:block>
          </fo:block-container>
       </fo:flow>
