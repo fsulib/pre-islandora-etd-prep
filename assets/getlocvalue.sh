@@ -7,4 +7,6 @@
 # to get the output:
 # Hodgins, Diane W. (Diane Weaver)
 
-curl -sI $1 | grep "X-PrefLabel: " | sed 's/X-PrefLabel:\ //'
+URI=$1
+VAL=`curl -sI ${URI} | grep "X-PrefLabel: " | sed 's/X-PrefLabel:\ //' | tr -d '\r'`
+echo "'${URI}', '${VAL}'"
