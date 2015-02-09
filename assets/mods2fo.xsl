@@ -8,41 +8,15 @@
 
   <xsl:output indent="yes" encoding="UTF-8"/>
   <xsl:strip-space elements="*"/>
-
   <xsl:template match="/mods:mods">
-
-
-
-    <!--
-            <xsl:variable name="author">
-                <xsl:variable name="first" select="authors/author/fname"/>
-                <xsl:variable name="last" select="authors/author/lname"/>
-                <xsl:variable name="middle" select="authors/author/mname"/>
-                <xsl:variable name="suffix" select="authors/author/suffix"/>
-                
-                <xsl:value-of
-                    select="
-                    if (suffix) then
-                    if (mname) then concat($first, ' ', $middle, ' ', $last, ', ',$suffix) else concat($first, ' ', $last, ', ',$suffix) 
-                    else 
-                    if (mname) then concat($first, ' ', $middle, ' ', $last) else concat($first, ' ', $last)
-                    "/>
-            </xsl:variable>
-            
-            <xsl:variable name="year" select="substring(publication-date,1,4)"/>
-            -->
-
-    <xsl:variable name="year">1986</xsl:variable>
-
-    <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
       <fo:layout-master-set>
         <fo:simple-page-master page-height="11in" page-width="8.5in" master-name="coverpage">
           <fo:region-body region-name="title" margin="1in"/>
         </fo:simple-page-master>
       </fo:layout-master-set>
 
-
-      <fo:page-sequence master-reference="coverpage">
+    <fo:page-sequence master-reference="coverpage">
         <fo:flow flow-name="title" font-family="'any'" font-style="normal" padding-left="15pt"
           text-decoration="none" text-indent="0pt">
 
@@ -75,6 +49,7 @@
             <fo:block font-size="13pt">
               <xsl:value-of select="mods:originInfo/mods:dateIssued"/>
             </fo:block>
+
             <fo:block font-size="26pt" line-height="24pt" padding-top="10pt">
               <xsl:choose>
                 <!-- nonSort and subTitle -->
@@ -102,6 +77,7 @@
                 </xsl:otherwise>
               </xsl:choose>
             </fo:block>
+
             <fo:block font-size="13pt" padding-top="11pt">
               <xsl:apply-templates select="mods:name[mods:role/mods:roleTerm='aut']"/>
             </fo:block>
@@ -113,7 +89,6 @@
           </fo:block-container>
 
           <fo:block-container absolute-position="fixed" top="220mm" left="28mm" right="28mm">
-
             <fo:block text-align="center" padding-bottom="0.25in">
               <fo:external-graphic content-height="1.00in" content-width="scale-to-fit"
                 src="color-lib-seal.png"/>
