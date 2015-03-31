@@ -11,7 +11,7 @@ from xml.etree import ElementTree as ET
 # build subarrays by file type, count them up and display to user
 targetdir = os.path.realpath(sys.argv[1])
 targetenv = os.path.dirname(targetdir)
-batchid = "MIGR"
+batchid = "TEST"
 files = os.listdir(targetdir)
 if os.path.exists(targetdir + "/.DS_Store"):
   files.remove('.DS_Store')
@@ -41,7 +41,8 @@ for x in xmlfiles:
   except:
     print("\n{} is not wellformed. Please fix.".format(x))
     sys.exit()
-  print('.',end="",flush=True)
+  print(x)
+  #print('.',end="",flush=True)
 
 # Make new directory to copy files into before processing (nondestructive!) 
 # If new directory already exists, clobber it and tell user
@@ -54,20 +55,23 @@ os.mkdir(postprocdir)
 print("\n\nCopying XML files from {0} to {1}/xml".format(targetdir, postprocdir))
 os.mkdir(postprocdir + "/xml")
 for i in xmlfiles:
-  print('.',end="",flush=True)
+  print(i)
+  #print('.',end="",flush=True)
   shutil.copy(targetdir + "/" + i, postprocdir + "/xml/" + i)
 
 print("\n\nCopying PDF files from {0} to {1}/pdf".format(targetdir, postprocdir))
 os.mkdir(postprocdir + "/pdf")
 for i in pdffiles:
-  print('.',end="",flush=True)
+  print(i)
+  #print('.',end="",flush=True)
   shutil.copy(targetdir + "/" + i, postprocdir + "/pdf/" + i)
 
 if len(supfiles) > 0:
   print("\n\nCopying sup files from {0} to {1}/sup".format(targetdir, postprocdir))
   os.mkdir(postprocdir + "/sup")
   for i in supfiles:
-    print('.',end="",flush=True)
+    print(i)
+    #print('.',end="",flush=True)
     shutil.copy(targetdir + "/" + i, postprocdir + "/sup/" + i)
 
 
@@ -76,13 +80,15 @@ xmlpath = postprocdir + "/xml/"
 
 print("\n\nRenaming XML files")
 for x in os.listdir(xmlpath):
-  print('.',end="",flush=True)
+  print(x)
+  #print('.',end="",flush=True)
   x = xmlpath + x
   os.rename(x, x.replace(".metadata_mods", ""))
 
 print("\n\nAdding FLVC specific info")
 for x in os.listdir(xmlpath):
-  print('.',end="",flush=True)
+  print(x)
+  #print('.',end="",flush=True)
   x = xmlpath + x
   os.system('./assets/flvc.sh {0} {1}'.format(x, batchid))
 
@@ -91,7 +97,8 @@ coverpath = postprocdir + "/covers/"
 os.mkdir(coverpath)
 for x in os.listdir(xmlpath):
   os.system('./assets/coverpage.sh {0} {1}'.format(xmlpath + x, coverpath))
-  print('.',end="",flush=True)
+  print(x)
+  #print('.',end="",flush=True)
 
 print("\n\nTesting XML files for well formedness again")
 for x in os.listdir(xmlpath):
@@ -100,12 +107,14 @@ for x in os.listdir(xmlpath):
   except:
     print("\n{} is not wellformed. Please fix.".format(x))
     sys.exit()
-  print('.',end="",flush=True)
+  print(x)
+  #print('.',end="",flush=True)
 
 print("\n\nMerging XML files into final batch")
 os.mkdir(postprocdir + "/batch")
 for x in os.listdir(xmlpath):
-  print('.',end="",flush=True)
+  print(x)
+  #print('.',end="",flush=True)
   shutil.copy(xmlpath + x, postprocdir + "/batch/" + x)
 shutil.rmtree(xmlpath) 
 
@@ -114,13 +123,15 @@ pdfpath = postprocdir + "/pdf/"
 
 print("\n\nRenaming PDF files")
 for p in os.listdir(pdfpath):
-  print('.',end="",flush=True)
+  print(p)
+  #print('.',end="",flush=True)
   p = pdfpath + p
   os.rename(p, p.replace(".fulltext", "")) 
 
 print("\n\nMerging PDFs with coverpages")
 for p in os.listdir(pdfpath):
-  print('.',end="",flush=True)
+  print(p)
+  #print('.',end="",flush=True)
   os.system('./assets/merge.sh {0} {1} {2}'.format(postprocdir + "/covers/coverpage." + p, postprocdir + "/pdf/" + p, postprocdir + "/batch/" + p))
 shutil.rmtree(pdfpath) 
 shutil.rmtree(coverpath) 
@@ -143,6 +154,6 @@ if os.path.exists(postprocdir + "/sup"):
 # Put all files into a subfolder of postprocdir, zip from inside,
 # pull it out and delete subfolder
 print("\n\nZipping")
-#os.system('cd {0}/batch; zip batch.zip *; mv batch.zip ..'.format(postprocdir))
+os.system('cd {0}/batch; zip batch.zip *; mv batch.zip ..'.format(postprocdir))
 
 print("\n\nDone!")
