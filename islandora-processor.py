@@ -11,7 +11,7 @@ from xml.etree import ElementTree as ET
 # build subarrays by file type, count them up and display to user
 targetdir = os.path.realpath(sys.argv[1])
 targetenv = os.path.dirname(targetdir)
-batchid = "TEST"
+batchid = "migr"
 files = os.listdir(targetdir)
 if os.path.exists(targetdir + "/.DS_Store"):
   files.remove('.DS_Store')
@@ -142,18 +142,6 @@ shutil.rmtree(coverpath)
 if os.path.exists(postprocdir + "/sup"):
   print("\n = Processing sup files = \n\n")
   suppath = postprocdir + "/sup/"
-
   shutil.rmtree(suppath) 
-
-
-# Chunk output
-# Count up to what? 10? 50? 100?
-
-
-# Zip
-# Put all files into a subfolder of postprocdir, zip from inside,
-# pull it out and delete subfolder
-print("\n\nZipping")
-os.system('cd {0}/batch; zip batch.zip *; mv batch.zip ..'.format(postprocdir))
 
 print("\n\nDone!")
