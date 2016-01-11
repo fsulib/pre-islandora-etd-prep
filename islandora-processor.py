@@ -85,6 +85,16 @@ for x in os.listdir(xmlpath):
   x = xmlpath + x
   os.rename(x, x.replace(".metadata_mods", ""))
 
+# facpubs only
+#'''
+print("\n\nAdding namespaces")
+for x in os.listdir(xmlpath):
+  print(x)
+  #print('.',end="",flush=True)
+  x = xmlpath + x
+  os.system('./assets/namespaces.sh {0} {1}'.format(x, batchid))
+#'''
+
 print("\n\nAdding FLVC specific info")
 for x in os.listdir(xmlpath):
   print(x)
