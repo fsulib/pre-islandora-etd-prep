@@ -1,7 +1,7 @@
-#islandora processor
-*scripts for preparing ETDs for ingest into Islandora*
+# islandora processor
+*script for preparing ETDs for ingest into Islandora*
 
-##Usage
+## Usage
 Clone the scripts onto your desktop and create a folder full of prepared documents
 inside of this directory. "Prepared documents" are pairs of MODS records and PDFs
 with corresponding names, such as "proquest-etd01.metadata_mods.xml" and "proquest-etd01.fulltext.pdf".
