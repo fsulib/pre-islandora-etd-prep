@@ -11,7 +11,9 @@ from xml.etree import ElementTree as ET
 # build subarrays by file type, count them up and display to user
 targetdir = os.path.realpath(sys.argv[1])
 targetenv = os.path.dirname(targetdir)
-batchid = "migr"
+batchid = sys.argv[2]
+script_location = os.path.abspath(os.path.dirname(sys.argv[0]))
+print("Script Location =" + script_location)
 files = os.listdir(targetdir)
 if os.path.exists(targetdir + "/.DS_Store"):
   files.remove('.DS_Store')
@@ -85,28 +87,38 @@ for x in os.listdir(xmlpath):
   x = xmlpath + x
   os.rename(x, x.replace(".metadata_mods", ""))
 
-# facpubs only
-#'''
+# Comment out if you don't need namespaces added
+'''
 print("\n\nAdding namespaces")
 for x in os.listdir(xmlpath):
   print(x)
   #print('.',end="",flush=True)
   x = xmlpath + x
-  os.system('./assets/namespaces.sh {0} {1}'.format(x, batchid))
-#'''
+  os.system('{0}/assets/namespaces.sh {1} {2}'.format(script_location, x, batchid))
+'''
 
+# Comment out if you don't need FLVC extensions added 
+'''
 print("\n\nAdding FLVC specific info")
 for x in os.listdir(xmlpath):
   print(x)
   #print('.',end="",flush=True)
   x = xmlpath + x
-  os.system('./assets/flvc.sh {0} {1}'.format(x, batchid))
+  os.system('{0}/assets/flvc.sh {1} {2}'.format(script_location, x, batchid))
+'''
+
+print("\n\nAdding IIDs")
+for x in os.listdir(xmlpath):
+  print(x)
+  #print('.',end="",flush=True)
+  x = xmlpath + x
+  os.system('{0}/assets/iid.sh {1} {2}'.format(script_location, x, batchid))
 
 print("\n\nGenerating coverpages")
 coverpath = postprocdir + "/covers/"
 os.mkdir(coverpath)
 for x in os.listdir(xmlpath):
-  os.system('./assets/coverpage.sh {0} {1}'.format(xmlpath + x, coverpath))
+  os.system('{0}/assets/coverpage.sh {1} {2}'.format(script_location, xmlpath + x, coverpath))
   print(x)
   #print('.',end="",flush=True)
 
@@ -142,10 +154,9 @@ print("\n\nMerging PDFs with coverpages")
 for p in os.listdir(pdfpath):
   print(p)
   #print('.',end="",flush=True)
-  os.system('./assets/merge.sh {0} {1} {2}'.format(postprocdir + "/covers/coverpage." + p, postprocdir + "/pdf/" + p, postprocdir + "/batch/" + p))
+  os.system('{0}/assets/merge.sh {1} {2} {3}'.format(script_location, postprocdir + "/covers/coverpage." + p, postprocdir + "/pdf/" + p, postprocdir + "/batch/" + p))
 shutil.rmtree(pdfpath) 
 shutil.rmtree(coverpath) 
-
 
 # Process sup files
 # Wait until you need to

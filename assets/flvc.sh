@@ -11,8 +11,3 @@ fi
 xmlstarlet ed -L -s //_:extension -t elem -n flvc:flvc $1
 xmlstarlet ed -L -s //flvc:flvc -t elem -n flvc:owningInstitution -v FSU $1
 xmlstarlet ed -L -s //flvc:flvc -t elem -n flvc:submittingInstitution -v FSU $1
-
-# Add IID identifier
-DID=`basename ${1} | sed "s/.xml//"`
-xmlstarlet ed -L -s //_:mods -t elem -n identifier -v FSU_${2}_${DID} $1
-perl -pi -e 's/<identifier>/<identifier type="IID">/g' $1
