@@ -71,7 +71,7 @@
                           rule-style="solid"
                           rule-thickness=".2mm"/>
             </fo:block>
-            <fo:block font-size="8pt" padding-left="15pt" text-align="center">Follow this and additional works at the <fo:basic-link color="#782F40" external-destination="http://fsu.digital.flvc.org/">FSU Digital Library</fo:basic-link>. For more information, please contact <fo:basic-link color="#782F40" external-destination="mailto:lib-ir@fsu.edu">lib-ir@fsu.edu</fo:basic-link>
+            <fo:block font-size="8pt" padding-left="15pt" text-align="center">Follow this and additional works at the <fo:basic-link color="#782F40" external-destination="http://diginole.lib.fsu.edu/">DigiNole: FSU's Digital Repository</fo:basic-link>. For more information, please contact <fo:basic-link color="#782F40" external-destination="mailto:lib-ir@fsu.edu">lib-ir@fsu.edu</fo:basic-link>
             </fo:block>
          </fo:block-container>
       </fo:flow>
