@@ -6,5 +6,5 @@
 
 DID=`basename ${1} | sed "s/.xml//"`
 xmlstarlet ed -L -s //mods:mods -t elem -n identifier -v FSU_${2}_${DID} $1
-xmlstarlet ed -L -s //identifier -t attr -n type -v IID $1
+xmlstarlet ed -L -s //mods:identifier -t attr -n type -v IID $1
 #perl -pi -e 's/<identifier>/<identifier type="IID">/g' $1
